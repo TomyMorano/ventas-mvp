@@ -376,7 +376,7 @@ export default function VentasApp() {
                           </td>
                         </tr>
                       ))}
-                    {!productos.length and (
+                    {!productos.length && (
                       <tr><td className="p-6 text-center text-gray-500" colSpan={5}>No hay productos cargados.</td></tr>
                     )}
                   </tbody>
